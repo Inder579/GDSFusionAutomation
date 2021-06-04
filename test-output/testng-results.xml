@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" total="1" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="254721" started-at="2021-05-21T19:46:02Z" finished-at="2021-05-21T19:50:16Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="254721" started-at="2021-05-21T19:46:02Z" finished-at="2021-05-21T19:50:16Z">
+      <class name="automation.ExpressBankingApp">
+        <test-method status="PASS" signature="Setup(org.testng.ITestContext)[pri:0, instance:automation.ExpressBankingApp@5cb137]" name="Setup" is-config="true" duration-ms="232" started-at="2021-05-21T15:46:01Z" finished-at="2021-05-21T15:46:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@5a973c]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method status="PASS" signature="initialize1()[pri:0, instance:automation.ExpressBankingApp@5cb137]" name="initialize1" is-config="true" duration-ms="2670" started-at="2021-05-21T15:46:02Z" finished-at="2021-05-21T15:46:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize1 -->
+        <test-method status="FAIL" signature="m1()[pri:0, instance:automation.ExpressBankingApp@5cb137]" name="m1" duration-ms="251996" started-at="2021-05-21T15:46:04Z" finished-at="2021-05-21T15:50:16Z">
+          <exception class="java.lang.ArrayIndexOutOfBoundsException">
+            <message>
+              <![CDATA[1]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.ArrayIndexOutOfBoundsException: 1
+	at automation.ExpressBankingApp.calculateBank(ExpressBankingApp.java:1725)
+	at automation.ExpressBankingApp.m1(ExpressBankingApp.java:131)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:646)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:823)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1131)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:778)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1225)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1150)
+	at org.testng.TestNG.runSuites(TestNG.java:1075)
+	at org.testng.TestNG.run(TestNG.java:1047)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:137)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:58)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.ArrayIndexOutOfBoundsException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- m1 -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestContext)[pri:0, instance:automation.ExpressBankingApp@5cb137]" name="tearDown" is-config="true" duration-ms="283" started-at="2021-05-21T15:50:16Z" finished-at="2021-05-21T15:50:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@5a973c]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- automation.ExpressBankingApp -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
